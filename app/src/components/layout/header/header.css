@@ -1,0 +1,79 @@
+
+.app-header {
+  z-index: 1;
+  position: fixed;
+  background: var(--cor_cabecalho);
+  padding: 10px;
+  width: calc(100%-0%);
+  top:0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  
+}
+
+.app-leftarea {
+  padding-top: 10px;
+  color: var(--cor_icone_menu);
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.app-leftarea span{
+  margin-left: 10px;
+  color:#19B3D3;
+}
+
+.app-toggle {
+
+  position: absolute;
+  margin-left: 220px;
+  top:10px;
+  font-size: 29px;
+  color:var(--cor_icone_menu);
+  cursor: pointer;
+  display: flex;
+
+}
+
+.app-toggle:focus, .app-toggle:hover{
+  text-decoration: none;
+}
+
+.app-profile {
+  position: absolute;
+  right: 50px;
+  display: flex;
+  font-weight: 900;
+  font-size: 25px;
+  top:10px;
+}
+
+img {
+  height: 80%;
+  cursor: pointer;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.app-profile span {
+  margin-top: 8px;
+  margin-left: 10px;
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+.app-logout {
+  margin-top: 5px;
+  margin-left: 150px;
+  color:var(--cor_icone_menu);
+  font-size: 22px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+

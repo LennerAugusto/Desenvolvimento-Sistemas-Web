@@ -1,0 +1,24 @@
+
+
+.app-titulo-sistema {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+    flex-direction: row;
+    background: #FFF;
+  	margin: -30px -30px;
+  	padding: 20px 30px;
+
+}
+
+
+.app-titulo-sistema h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.app-titulo-sistema p {
+  margin-bottom: 0;
+  font-style: italic;
+}

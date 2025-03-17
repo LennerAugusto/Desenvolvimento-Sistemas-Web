@@ -1,0 +1,63 @@
+.app-sidebar {
+	z-index: 1;
+	top: 0;
+	background: #2f323a;
+	margin-top: 70px;
+	position: fixed;
+	left:0;
+	min-width: 220px;
+	max-width: 220px;
+	height: 100vh;
+	transition: 0.5s;
+	transition-property: left;
+	overflow: auto;
+    flex-shrink: 0;
+}
+
+.app-sidebar ul {
+	margin-top: 5px;
+	width: 100%;
+	padding: 5px 0 0 5px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  padding: 0;
+
+}
+
+.app-sidebar li {
+	position: relative;
+	width: 100%;
+	list-style-type: none;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+  padding: 0;
+}
+
+
+.app-sidebar ul li a {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 12px;
+	white-space: nowrap;
+	transition: all 0.5s ease;
+  padding: 0;
+
+
+}
+
+.app-sidebar ul li a:hover{
+	color: #11101d;
+	background: #fff;
+}
+
+.app-sidebar ul li i{
+	min-width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 12px;
+	text-align: center;
+  margin-left: 25px;
+
+} 

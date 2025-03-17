@@ -1,0 +1,66 @@
+
+.app-sidebar-item {
+  padding: .75em 1em;
+  display: block;
+  transition: background-color .15s;
+  border-radius: 5px;
+}
+.app-sidebar-item:hover{
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.app-sidebar-title{
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+}
+
+.app-sidebar-title span {
+  color:#FFF;
+}
+
+.app-sidebar-title span i {
+  display: inline-block;
+  color:#FFF;
+  width: 1.5em;
+}
+
+.app-sidebar-title .app-toggle-btn{
+  cursor: pointer;
+  transition: transform .3s;
+  color:#FFF
+}
+
+.app-sidebar-item.open > .app-sidebar-title .app-toggle-btn{
+  transform: rotate(180deg);
+}
+
+.app-sidebar-content{
+  padding-top: .25em;
+  height: 0;
+  overflow: hidden;
+}
+
+.app-sidebar-item.open > .app-sidebar-content{
+  height: auto;
+}
+
+.app-sidebar-item.plain{
+  color: #fff;
+  text-decoration: none;
+}
+
+.app-sidebar-item.plain:hover{
+  text-decoration: none;
+}
+.app-sidebar-item.plain i{
+  display: inline-block;
+  width: 1.7em;
+
+}
+
+/* ativa ou desativa o menu a esquerda */
+
+.app-sidebar.active {
+	margin-left: -220px;
+}
