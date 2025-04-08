@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app-header{
+    z-index: 1;
+    position: fixed;
+    background: #3c9B46;
+    padding: 10px;
+    width: calc(100% - 0%);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+}
+
+.app-leftarea{
+    padding-top: 7px;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.app-leftarea span{
+    margin-left: 10px;
+    color: #19b3D3;
+
+}
+
+.app-toggle{
+    position: absolute;
+    margin-left: 220px;
+    top: 13px;
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+}
+
+.app-toggle:focus, .app-toggle:hover{
+    background-color: #00635A;
+    text-decoration: none;
+}
+
+.app-profile{
+    position: absolute;
+    right: 50px;
+    display: flex;
+    font-weight: 900;
+    font-size: 15px;
+    top: 13px;
+    
+}
+
+.app-profile img{
+    top: 5px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.app-profile span{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.app-logout{
+    margin-top: 0px;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*Config do side bar*/
+
+.app-sidebar{
+    z-index: 1;
+    top: 0;
+    background: #2f323a;
+    margin-top: 60px;
+    position: fixed;
+    left: 0;
+    min-width: 220px;
+    max-width: 220px;
+    height: 100vh;
+    transition: 0.5s;
+    overflow: none;
+    transition-property: left;
+}
+
+.app-sidebar ul{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0 0 5px;
+}
+
+.app-sidebar li{
+    width: 100%;
+    list-style-type: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.app-sidebar ul li a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    white-space: nowrap;
+    transition: all 0.5s ease;
+}
+
+.app-sidebar ul li i{
+    min-width: 500px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.app-sidebar .active{
+margin-left: -220px;
+}
+
+/* config do conteudo */
+
+.app-content{
+    margin-top: 60px;
+    min-height: calc(100vh -60px);
+    margin-left: 220px;
+    padding: 30px;
+    background-color: #E5E5E5;
+    transition-property: left;
+    overflow: none;
+}
+.app-windows{
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/*conf pra tabela*/
+
+.app-tabela{
+    width: 100%;
+}
+
+.app-cabecalho-tabela{
+    font-weight: bold;
+    text-align: center;
+}
+
+.app-coluna-detalhe-centro{
+    text-align: cengter;
+}
+
+.img-avatar{
+    border: 1px solid;
+    max-width: 48%;
+    border-radius: 50px;
+    
+
+}
